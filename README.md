@@ -7,9 +7,10 @@ It was developed in 48 hours. It is just a proof of concept.
 
 The project includes Flask, Flask-restful, numpy, matplotlib and requests.
 
-##Installation
-`pip3 install flask`
-`pip3 install flask-restful`
+## Installation
+
+`pip3 install flask`<br/>
+`pip3 install flask-restful`<br/>
 `pip3 install requests`
 
 ## Server 
