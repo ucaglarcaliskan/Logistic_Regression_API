@@ -23,7 +23,7 @@ parser.add_argument('file',type=werkzeug.datastructures.FileStorage, location='f
 
 
 
-class PhotoUpload(Resource):
+class DatasetUpload(Resource):
     decorators=[]
 
     def post(self,filename):
@@ -78,7 +78,7 @@ class ListDataset(Resource):
                 
         
 
-api.add_resource(PhotoUpload,'/uploader/<string:filename>')
+api.add_resource(DatasetUpload,'/uploader/<string:filename>')
 
 api.add_resource(Train,'/train')
 
